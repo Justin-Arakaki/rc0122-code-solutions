@@ -1,0 +1,33 @@
+body {
+  color: #090302;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+article {
+  padding: 0 16px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  margin-bottom: 16px;
+}
+
+.title {
+  font-family: monospace;
+  font-size: 24px;
+}
+
+h2#html {
+  color: red;
+}
+
+h2#css {
+  color: green;
+}
+
+h2#js {
+  color: blue;
+}

@@ -14,7 +14,6 @@ form {
   font-weight: 500;
   width: 60%;
   margin: 0 20%;
-  justify-content: left;
 }
 
 .form-section {
@@ -28,8 +27,7 @@ select {
   border-width: 1px;
   border-radius: 8px;
   border-style: solid;
-  border-color: lightgray;
-  color: black;
+  border-color: darkgray;
 }
 
 label {
@@ -39,7 +37,11 @@ label {
 }
 
 input::placeholder {
-  color: rgb(110 110 110);
+  color: darkgray;
+}
+
+select {
+  background-color: rgb(235 235 235);
 }
 
 .jank-solution {

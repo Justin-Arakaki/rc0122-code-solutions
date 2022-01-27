@@ -25,19 +25,21 @@ input,
 select {
   width: 100%;
   padding: 10px;
+  border-width: 1px;
   border-radius: 8px;
   border-style: solid;
   border-color: lightgray;
   color: black;
-  border-width: 1px;
 }
 
 label {
   margin-left: 10px;
+  font-size: 0.75rem;
+  font-weight: bold;
 }
 
 input::placeholder {
-  color: darkgray;
+  color: rgb(110 110 110);
 }
 
 .jank-solution {
@@ -46,11 +48,10 @@ input::placeholder {
 
 .submit {
   width: auto;
-  margin-top: 1rem;
-  padding: 10px 25px;
-  border-radius: 20px;
+  padding: 10px 20px;
+  font-weight: bold;
   color: white;
   background-color: #ec5d57;
   border-style: none;
-  font-size: 1.17rem;
+  border-radius: 20px;
 }

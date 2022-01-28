@@ -1,0 +1,77 @@
+* {
+  font-family: karla, sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 4.5rem auto 1.5rem;
+}
+
+h3 {
+  margin-top: 2rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+p {
+  line-height: 1.6rem;
+  color: rgb(100 100 100);
+}
+
+h4 { /* Second header line */
+  text-align: center;
+  line-height: 1.6rem;
+  color: rgb(100 100 100);
+}
+
+header {
+  width: 700px;
+  margin: 0 auto 4rem;
+}
+
+button {
+  width: 175px;
+  height: 2.5rem;
+  color: coral;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: white;
+  border-style: solid;
+  border-color: coral;
+  margin: 0 auto;
+  display: block;
+}
+
+.container {
+  max-width: 100vh;
+  margin: 0 auto;
+}
+
+.row {
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+}
+
+.quadrant {
+  width: 50%;
+  display: flex;
+  padding: 1rem 2rem;
+}
+
+.col-one-fourth {
+  width: 25%;
+}
+
+.col-three-fourth {
+  width: 75%;
+}
+
+.icon {
+  width: 100%;
+  padding: 0 5px;
+}

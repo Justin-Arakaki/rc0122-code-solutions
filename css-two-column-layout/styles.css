@@ -47,7 +47,7 @@ button {
 }
 
 .container {
-  width: 1200px;
+  max-width: 100vh;
   margin: 0 auto;
 }
 
@@ -60,7 +60,7 @@ button {
 .quadrant {
   width: 50%;
   display: flex;
-  padding: 1rem 4rem;
+  padding: 1rem 2rem;
 }
 
 .col-one-fourth {

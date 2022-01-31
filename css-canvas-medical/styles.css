@@ -1,0 +1,194 @@
+* {
+  font-family: avenir, sans-serif;
+}
+
+body {
+  min-width: 800px;
+}
+
+p {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+header.row {
+  border-bottom: 1px solid lightgray;
+  max-width: 100%;
+  align-items: center;
+  padding: 1rem 6vh;
+  margin: 0;
+}
+
+footer h4 {
+  font-weight: normal;
+  margin-top: 0;
+}
+
+.info a {
+  display: block;
+  margin-bottom: 1.33rem;
+  text-decoration: none;
+  color: white;
+}
+
+.privacy a {
+  margin-right: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(82 83 81);
+}
+
+.privacy h4 {
+  margin: 0 25px 0 0;
+  font-weight: 600;
+}
+
+button {
+  border-style: none;
+  border-radius: 5px;
+  background: rgb(41 68 100);
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: cornflowerblue;
+}
+
+.color-white {
+  color: white;
+}
+
+.color-gray {
+  color: rgb(82 83 81);
+}
+
+.color-light-gray {
+  color: rgb(140 140 140);
+}
+
+.font-tiempos {
+  font-family: "Tiempos Headline", serif;
+  font-weight: normal;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-space-around {
+  justify-content: space-around;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.width-fifty {
+  width: 50%;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  min-width: 800px;
+  max-width: 1200px;
+  padding: 0 6vh;
+  margin: 0 auto;
+  position: relative;
+}
+
+.logo {
+  height: 1.5rem;
+}
+
+.nav-item {
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 20px;
+}
+
+.contact-us {
+  padding: 8px;
+  font-size: 1rem;
+}
+
+.get-started {
+  width: 160px;
+  height: 3rem;
+  font-size: 1rem;
+}
+
+.hero {
+  padding-top: 3.5rem;
+  padding-bottom: 3rem;
+}
+
+.hero-image {
+  width: 100%;
+  filter: brightness(0.9);
+}
+
+.hero-content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  height: 100%;
+  top: 0;
+  left: calc(6vh + 8%);
+}
+
+.recs {
+  background-color: rgb(250 250 250);
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+  border-bottom-style: solid;
+  border-color: rgb(242 242 244);
+  border-width: 1px;
+}
+
+.recs-title {
+  width: 400px;
+  padding-bottom: 30px;
+}
+
+.recs-practices {
+  width: 300px;
+  margin: 0 20px;
+  font-size: 0.9rem;
+}
+
+.learn {
+  padding: 1.5rem 0;
+}
+
+.info {
+  padding: 5rem 0;
+  background-color: rgb(82 83 81);
+}
+
+.address {
+  margin: 2.5rem 0;
+}
+
+.privacy {
+  padding: 2rem 0;
+}

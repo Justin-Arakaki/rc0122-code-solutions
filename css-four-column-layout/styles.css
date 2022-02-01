@@ -24,6 +24,10 @@ h1 {
   display: flex;
 }
 
+.col {
+  flex-basis: 25%;
+}
+
 .screens {
   padding: 0 15px;
 }
@@ -34,5 +38,4 @@ h1 {
 
 .content {
   text-align: center;
-  width: 25%;
 }

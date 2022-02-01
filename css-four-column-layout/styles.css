@@ -1,0 +1,38 @@
+* {
+  font-family: Barlow, sans-serif;
+}
+
+body {
+  min-width: 400px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.screens > img {
+  width: 100%;
+}
+
+.icons > img {
+  width: 25%;
+}
+
+.row {
+  display: flex;
+}
+
+.screens {
+  padding: 0 15px;
+}
+
+.icons {
+  text-align: center;
+}
+
+.content {
+  text-align: center;
+  width: 25%;
+}

@@ -180,9 +180,6 @@ button:hover {
   background-color: rgb(250 250 250);
   padding-top: 3rem;
   padding-bottom: 5rem;
-  border-bottom-style: solid;
-  border-color: rgb(242 242 244);
-  border-width: 1px;
 }
 
 .recs-title {
@@ -198,6 +195,9 @@ button:hover {
 
 .learn {
   padding: 1.5rem 0;
+  border-top-style: solid;
+  border-color: rgb(242 242 244);
+  border-width: 1px;
 }
 
 .info {
@@ -217,6 +217,10 @@ button:hover {
   padding: 3rem 0;
 }
 
-.features-content {
+.features-content-l {
   padding-left: 80px;
+}
+
+.features-content-r {
+  padding-right: 80px;
 }

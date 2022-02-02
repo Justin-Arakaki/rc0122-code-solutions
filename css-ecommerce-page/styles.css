@@ -1,0 +1,41 @@
+* {
+  font-family: "DM Sans", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  margin: 0;
+}
+
+s {
+  color: rgb(219 219 219);
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+.background-peach {
+  background-color: rgb(255 242 232);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.color-gray {
+  color: rgb(219 219 219);
+}
+
+.row {
+  display: flex;
+  margin: 0 100px;
+}
+
+.col {
+  width: 20%;
+  margin: 10px;
+}

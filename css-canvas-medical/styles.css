@@ -89,6 +89,14 @@ button:hover {
   font-size: 0.8rem;
 }
 
+.font-size-big {
+  font-size: 1.5rem;
+}
+
+.font-weight-normal {
+  font-weight: normal;
+}
+
 .justify-space-between {
   justify-content: space-between;
 }
@@ -115,6 +123,10 @@ button:hover {
 
 .width-fifty {
   width: 50%;
+}
+
+.width-sixty {
+  width: 60%;
 }
 
 .flex {
@@ -162,7 +174,7 @@ button:hover {
 
 .hero-image {
   width: 100%;
-  filter: brightness(0.9);
+  filter: brightness(0.8);
 }
 
 .hero-content {
@@ -223,4 +235,13 @@ button:hover {
 
 .features-content-r {
   padding-right: 80px;
+}
+
+.six-step {
+  padding-top: 3rem;
+  padding-bottom: 8rem;
+}
+
+.imp-heading {
+  margin-bottom: 3rem;
 }

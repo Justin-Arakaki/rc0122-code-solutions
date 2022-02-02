@@ -4,6 +4,8 @@
 
 img {
   width: 100%;
+  position: relative;
+  bottom: 0;
 }
 
 p {
@@ -28,6 +30,10 @@ h1 {
 
 .color-gray {
   color: rgb(219 219 219);
+}
+
+.flex-end {
+  align-items: flex-end;
 }
 
 .row {

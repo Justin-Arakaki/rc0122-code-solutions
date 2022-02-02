@@ -54,7 +54,6 @@ function getKeys(object) {
   const keys = [];
   for (const key in object) {
     keys.push(key);
-    console.log(key);
   }
   return keys;
 }
@@ -63,18 +62,6 @@ function getValues(object) {
   const values = [];
   for (const key in object) {
     values.push(object[key]);
-    console.log(key);
   }
   return values;
 }
-
-// console.log(getNumbersToTen());
-// console.log(getNumbersToTen());
-// console.log(getEvenNumbersToTwenty());
-// console.log(getEvenNumbersToTwenty());
-// console.log(repeatWord('javascript', 3));
-// console.log(repeatWord('javascript', 3));
-// logEachCharacter('javascript');
-// console.log(doubleAll([5, 3, 7, 20.3, 100]));
-// console.log(getKeys({ prop1: 234, prop2: 'der' }));
-// console.log(getValues({ prop1: 234, prop2: 'der' }));

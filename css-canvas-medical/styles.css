@@ -8,7 +8,8 @@ body {
 
 p {
   font-size: 0.8rem;
-  line-height: 1.2rem;
+  line-height: 1.1rem;
+  margin: 0.5rem 0;
 }
 
 a {
@@ -25,6 +26,10 @@ h1,
 h2,
 h3 {
   margin: 0;
+}
+
+h3 {
+  font-size: 1.25rem;
 }
 
 header.row {
@@ -127,6 +132,10 @@ button:hover {
 
 .width-sixty {
   width: 60%;
+}
+
+.width-third {
+  width: calc(100% / 3);
 }
 
 .flex {
@@ -244,4 +253,40 @@ button:hover {
 
 .imp-heading {
   margin-bottom: 3rem;
+}
+
+.believe {
+  padding-bottom: 3.5rem;
+}
+
+.team {
+  padding-top: 2.5rem;
+  padding-bottom: 3rem;
+}
+
+.team-header {
+  margin-bottom: 1rem;
+}
+
+.team-portrait {
+  width: 60%;
+  border-radius: 50%;
+  margin: 1rem 0;
+}
+
+.board {
+  padding-bottom: 4rem;
+}
+
+.board-header {
+  margin-bottom: 1rem;
+}
+
+.story {
+  padding-top: 2.5rem;
+  padding-bottom: 3rem;
+}
+
+.story-header {
+  margin-bottom: 1rem;
 }

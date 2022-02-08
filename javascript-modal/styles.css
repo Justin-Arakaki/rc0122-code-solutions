@@ -1,0 +1,56 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+button {
+  font-size: 1.5rem;
+  padding: 0.5rem 2rem;
+  margin: 10px;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px gray;
+}
+
+.open {
+  background-color: rgb(74 74 233);
+}
+
+.popup {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0 0 0 / 80%);
+}
+
+div.hidden {
+  display: none;
+}
+
+.wrapper {
+  display: flex;
+  height: 10rem;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 5px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no {
+  background-color: rgb(235 93 93);
+}
+
+button:hover {
+  cursor: pointer;
+}

@@ -3,6 +3,10 @@ body {
   background-color: white;
 }
 
+.body-off {
+  background-color: rgb(17 17 17);
+}
+
 .container {
   height: 100%;
   display: flex;
@@ -20,11 +24,19 @@ body {
   background-color: white;
 }
 
+.outer-off {
+  background-color: rgb(12 12 12);
+}
+
 .inner {
   height: 90%;
   width: 90%;
   border-radius: 50%;
   background-color: rgb(250 234 132);
+}
+
+.inner-off {
+  background-color: rgb(35 36 37);
 }
 
 .inner:hover {

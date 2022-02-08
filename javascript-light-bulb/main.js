@@ -6,14 +6,14 @@ inner.addEventListener('click', bulb);
 
 function bulb() {
   if (on === true) {
-    background.style.backgroundColor = 'rgb(17 17 17)';
-    outer.style.backgroundColor = 'rgb(12 12 12)';
-    inner.style.backgroundColor = 'rgb(35 36 37)';
+    background.className = 'body-off';
+    outer.className = 'outer outer-off';
+    inner.className = 'inner inner-off';
     on = false;
   } else {
-    background.style.backgroundColor = 'white';
-    outer.style.backgroundColor = 'white';
-    inner.style.backgroundColor = 'rgb(250 234 132)';
+    background.className = '';
+    outer.className = 'outer';
+    inner.className = 'inner';
     on = true;
   }
 }

@@ -1,0 +1,28 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: monospace;
+}
+
+.completed {
+  color: rgb(24 205 27);
+}
+
+.current {
+  color: black;
+  text-underline-position: under;
+  text-decoration: underline;
+}
+
+.incomplete {
+  color: black;
+}
+
+.incorrect {
+  color: red;
+}

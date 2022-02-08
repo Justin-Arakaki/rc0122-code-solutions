@@ -1,0 +1,32 @@
+body {
+  height: 100vh;
+  background-color: white;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.outer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 30vw;
+  width: 30vw;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.inner {
+  height: 90%;
+  width: 90%;
+  border-radius: 50%;
+  background-color: rgb(250 234 132);
+}
+
+.inner:hover {
+  cursor: pointer;
+}

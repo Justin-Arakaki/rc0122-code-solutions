@@ -5,9 +5,9 @@ openButton.addEventListener('click', popupEngaged);
 noButton.addEventListener('click', popupEngaged);
 
 function popupEngaged() {
-  if (popup.id === 'hidden') {
-    popup.id = '';
+  if (popup.className === 'popup hidden') {
+    popup.className = 'popup';
   } else {
-    popup.id = 'hidden';
+    popup.className = 'popup hidden';
   }
 }

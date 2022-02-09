@@ -9,4 +9,5 @@ function handleSubmit(event) {
   messageData.message = event.target.elements.message.value;
   console.log('submit event fired');
   console.log(messageData);
+  event.target.reset();
 }

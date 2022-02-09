@@ -85,6 +85,10 @@ button:hover {
   color: rgb(140 140 140);
 }
 
+.color-blue {
+  color: rgb(41 68 100);
+}
+
 .font-tiempos {
   font-family: "Tiempos Headline", serif;
   font-weight: normal;
@@ -138,6 +142,10 @@ button:hover {
   width: calc(100% / 3);
 }
 
+.width-full {
+  width: 100%;
+}
+
 .flex {
   display: flex;
 }
@@ -153,6 +161,10 @@ button:hover {
   padding: 0 6vh;
   margin: 0 auto;
   position: relative;
+}
+
+.col {
+  flex-direction: column;
 }
 
 .logo {
@@ -289,4 +301,42 @@ button:hover {
 
 .story-header {
   margin-bottom: 1rem;
+}
+
+.email {
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+}
+
+.input-email {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0.5rem;
+  border-style: none;
+  border-bottom-style: solid;
+  border-width: 1px;
+  width: 50%;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+}
+
+.input-email::placeholder {
+  color: lightgray;
+}
+
+.input-email:focus {
+  outline: none;
+}
+
+.articles {
+  padding-bottom: 4rem;
+}
+
+.article-box {
+  padding: 1rem 10px;
+}
+
+.blog-pic {
+  height: 15rem;
+  object-fit: cover;
 }

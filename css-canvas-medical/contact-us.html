@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>CSS Challenge - Canvas Medical</title>
+  <title>Contact Us</title>
   <link rel="stylesheet" href="fonts.css">
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="styles.css">
@@ -22,40 +22,34 @@
       </nav>
     </header>
   </div>
-  <div class="container hero">
+  <div class="container contact">
     <div class="row">
-      <img class="hero-image" src="images/hero.jpg" alt="Lady Smiling">
-      <div class="hero-content color-white">
-        <h1 class="font-tiempos">The EMR Reimagined for Primary Care</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum inventore, id praesentium earum aliquam commodi
-          eligendi minus sapiente! Amet totam, cupiditate aut eveniet iure modi. Rem maiores saepe ratione voluptate?
+      <div class="contact-text width-fifty">
+        <h2 class="font-tiempos color-gray">
+          Get in touch with Canvas
+        </h2>
+        <p class="contact-font color-blue">
+          (800) 555-5555
         </p>
-        <button class="get-started color-white">Get Started</button>
-      </div>
-    </div>
-  </div>
-  <div class="container recs">
-    <div class="row justify-center color-gray">
-      <div class="recs-title text-align-center">
-        <h2 class="font-tiempos">Clinicians Prefer Canvas</h2>
-        <p>
-          Physician-owned primary care practices across the country have
-          already made Canvas the fabric of their care
+        <p class="contact-font color-light-gray">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam earum, ad officiis non aliquam totam recusandae magnam modi vitae sit tempora optio fugit omnis rerum ipsam vel voluptatibus aspernatur. Ad.
         </p>
       </div>
-    </div>
-    <div class="row justify-space-around text-align-center color-light-gray">
-      <div class="recs-practices">
-        <h4>Cascade Family Practice, Portland OR</h4>
-        <h4>Temescal Creek Medicine, Oakland CA</h4>
-        <h4>San Juan Healthcare, Friday Harbor WA</h4>
-      </div>
-      <div class="recs-practices color-light-gray">
-        <h4>Ward Medical Clinic, Bonifay FL</h4>
-        <h4>Caribou Medical, Towanda PA</h4>
-        <h4>Bay Tree Family Care, Red Bay AL</h4>
-      </div>
+      <form class="width-fifty text-align-center">
+        <input required class="survey" type="text" name="name"
+        placeholder="Name">
+        <input required class="survey" type="text" name="practice-name"
+        placeholder="Practice Name">
+        <input required class="survey" type="email" name="email"
+        placeholder="email@domain.com">
+        <input class="survey" type="tel" name="phone"
+        placeholder="Phone (optional)">
+        <p class="survey-font">
+          Tell us more about your practice and interest in Canvas. (optional)
+        </p>
+        <textarea class="survey comments" name="comment"></textarea>
+        <button class="contact-us color-white">Submit</button>
+      </form>
     </div>
   </div>
   <footer>

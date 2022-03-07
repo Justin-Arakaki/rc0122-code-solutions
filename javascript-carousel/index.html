@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Carousel</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="wrapper">
+      <div class="carousel">
+        <button class="scroll-button" id="left-button">
+          <i class="fas fa-chevron-left fa-2x"></i>
+        </button>
+        <div class="grow">
+          <div class="image-wrapper">
+            <img src="images/025.png" alt="Pikachu" id="carousel-pic">
+          </div>
+          <div class="nav-dots" id="nav-dots">
+            <button class="dot-button active"></button>
+            <button class="dot-button"></button>
+            <button class="dot-button"></button>
+            <button class="dot-button"></button>
+            <button class="dot-button"></button>
+          </div>
+        </div>
+        <button class="scroll-button" id="right-button">
+          <i class="fas fa-chevron-right fa-2x"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

@@ -11,7 +11,7 @@ let timer = setInterval(handleClickRightBtn, 3000);
 
 function handleClickLeftBtn() {
   if (slot <= 0) {
-    slot = 5;
+    slot = 4;
   } else {
     slot--;
   }

@@ -33,7 +33,17 @@ img {
   border: none;
 }
 
-.scroll-button:hover {
+.dot-button {
+  padding: 0;
+  height: 15px;
+  width: 15px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.scroll-button:hover,
+.dot-button:hover {
   cursor: pointer;
 }
 
@@ -45,15 +55,6 @@ img {
   display: flex;
   justify-content: center;
   gap: 0.5rem;
-}
-
-.dot-button {
-  padding: 0;
-  height: 15px;
-  width: 15px;
-  background-color: white;
-  border: 2px solid black;
-  border-radius: 50%;
 }
 
 .grow {

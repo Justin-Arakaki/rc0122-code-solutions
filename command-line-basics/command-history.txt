@@ -1,0 +1,129 @@
+    1  alias
+    2  pruner.sh
+    3  ls
+    4  nano .bashrc
+    5  alias
+    6  cd
+    7  bin
+    8  cd bin
+    9  nano .bashrc
+   10  clear
+   11  alias
+   12  cd bind
+   13  cd bin
+   14  ls
+   15  nano .bashrc
+   16  clear
+   17  cd
+   18  cd repos
+   19  cd ajax-project/
+   20  clear
+   21  alias
+   22  git switch master
+   23  prune
+   24  clear
+   25  cd
+   26  nano .bashrc
+   27  clear
+   28  cd
+   29  rep
+   30  cd ajax-project/
+   31  clear
+   32  j
+   33  clear
+   34  chk es6-const-let
+   35  git add es6-const-let/
+   36  ex
+   37  git push origin es6-const-let 
+   38  mst
+   39  prune
+   40  git branch -d es6-const-let 
+   41  bl
+   42  git branch --list
+   43  clear
+   44  cd
+   45  ls
+   46  pwd
+   47  ln
+   48  ls
+   49  ls ..
+   50  ls .
+   51  dir
+   52  clear
+   53  dir /s
+   54  bit
+   55  bin
+   56  ls /root
+   57  ls
+   58  ls -a
+   59  nano .bashrc
+   60  config
+   61  nano .bashrc
+   62  push
+   63  config
+   64  rep
+   65  cd rc0122-code-solutions/
+   66  clear
+   67  config
+   68  fg
+   69  clear
+   70  sol
+   71  config
+   72  sol
+   73  clear
+   74  chk es6-template-literals
+   75  alias
+   76  git add es6-template-literals/
+   77  ex
+   78  push es6-template-literals/
+   79  alias
+   80  push es6-template-literals
+   81  mst
+   82  prune
+   83  bd es6-template-literals
+   84  clear
+   85  sol
+   86  clear
+   87  mst
+   88  pwd
+   89  man man
+   90  clear
+   91  cd command-line-basics/
+   92  clear
+   93  cat laziness.txt 
+   94  cat impatience.txt 
+   95  man cat
+   96  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+   97  cat three-virtues.txt 
+   98  man ls
+   99  ls -aF lfz-staff > lfz-staff/contents.txt
+  100  cat lfz-staff/contents.txt 
+  101  man pwd
+  102  pwd > i-was-here.txt
+  103  man touch
+  104  touch tag-youre-it.txt
+  105  touch snoot/boop.txt
+  106  ls snoot/
+  107  man mkdir
+  108  mkdir parent
+  109  ls
+  110  mkdir man
+  111  man mkdir
+  112  mkdir -p parent/child/grandchild
+  113  touch parent/child/grandchild/.gitkeep
+  114  ls -a
+  115  ls -a parent/child/grandchild/
+  116  man mv
+  117  mv pokiemans/ pokemon/
+  118  ls
+  119  man rm
+  120  rm lol.txt
+  121  ls
+  122  rm -r kill-me/
+  123  ls
+  124  man cp
+  125  cp and-then.txt no-and-then.txt
+  126  ls
+  127  man history
+  128  history
+  129  history > command-history.txt

@@ -21,9 +21,6 @@ const grades = {
   }
 };
 
-app.listen(3000, () => {
-});
-
 app.get('/api/grades', (req, res) => {
   const arr = [];
   for (const x in grades) {
@@ -34,5 +31,10 @@ app.get('/api/grades', (req, res) => {
 
 app.delete('/api/grades/:id', (req, res) => {
   delete grades[req.params.id];
-  res.sendStatus(202);
+  res.sendStatus(204);
+});
+
+app.listen(3000, () => {
+  // eslint-disable-next-line no-console
+  console.log('Listening...');
 });

@@ -19,7 +19,7 @@ app.get('/api/notes/:id', (req, res) => {
   if (id < 0 || !id) {
     res.status(400).json({ error: 'id must be a positive integer' });
   } else if (notes[id]) {
-    res.status(200).json(notes[id]);
+    res.json(notes[id]);
   } else {
     res.status(404).json({ error: 'cannot find note with id ' + id });
   }
@@ -41,7 +41,7 @@ app.post('/api/notes', (req, res) => {
         res.status(500).json({ error: 'An unexpected error occurred.' });
         return;
       }
-      res.status(201).json(req.body);
+      res.json(notes[data.nextId - 1]);
     });
   }
 });
@@ -83,7 +83,7 @@ app.put('/api/notes/:id', (req, res) => {
         res.status(500).json({ error: 'An unexpected error occurred.' });
         return;
       }
-      res.status(200).json(notes[id]);
+      res.json(notes[id]);
     });
   }
 });

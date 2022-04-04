@@ -1,0 +1,43 @@
+button {
+  border: 2px solid black;
+  padding: 0.5rem 1rem;
+  box-shadow: 2px 2px black;
+  text-decoration: none;
+  color: white;
+  font-size: bold;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  background-color: lightblue;
+}
+
+.level-1 {
+  background-color: #351c75;
+}
+
+.level-2 {
+  background-color: #674ea7;
+}
+
+.level-3 {
+  background-color: #e06666;
+}
+
+.level-4 {
+  background-color: #f6b26b;
+  color: black;
+}
+
+.level-5 {
+  background-color: #ff0;
+  color: black;
+}
+
+.level-6 {
+  background-color: #fff;
+  color: black;
+}

@@ -1,0 +1,37 @@
+* {
+  font-family: sans-serif;
+}
+
+i {
+  font-size: 1.5rem;
+}
+
+p {
+  margin: 0;
+  font-weight: bold;
+}
+
+input {
+  margin-bottom: 1rem;
+  border: 3px solid black;
+}
+
+.password-header {
+  display: block;
+  font-weight: bold;
+  font-size: 1.17rem;
+  margin-bottom: 1rem;
+}
+
+.flexy {
+  display: flex;
+  gap: 1rem;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}

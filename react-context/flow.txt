@@ -1,0 +1,36 @@
+Sign-Up
+- (Client) Filled form is submitted and handleSubmit is triggered
+- (Client) fetch sends http POST request with url (sign-up action) and state (username, password)
+- (Server) POST request received and express app runs
+- (Server) Successful sign-up results in calling argon2
+- (Server) argon2 hashes password
+- (Databs) Query puts username, hashed password into database in postgres and returns user information
+- (Server) App sends http response back (error or user information)
+- (Server) If successful, http response includes user information
+- (Client) Hash is changed to 'sign-in'
+- (Client) render and renderPage called twice (hash is changed to '' and then page actually renders)
+
+Sign-In
+- (Client) Filled form is submitted and handleSubmit is triggered
+- (Client) fetch sends http POST request with url (sign-in action) and state (username, password)
+- (Server) POST request received and express app runs
+- (Server) Successful sign-in results in database Query
+- (Databs) Query searches database for entered username
+- (Server) If user exists, argon2 hashes entered password and compares to hashedPassword in database
+- (Server) If matches, jwt created with user data
+- (Server) App sends http response back (error or jwt and user information)
+- (Client) If jwt and user information returned, handleSignIn is called (was context then a prop onSignIn) is called
+- (Client) localStorage stores jwt and state given user information
+- (Client) render and renderPage called twice (Redirect called and hash changed then again to actually render page)
+- (Client) User is rickrolled
+
+Stay Signed-In
+- (Client) constructor is called and state isAuthorizing is true
+- (Client) render is called and immediately returns nothing
+- (Client) render and renderPage is called
+- (Client) if user exists, user is rickrolled
+
+Sign-Out
+- (Client) Sign-out button clicked and calls handleSignOut (context)
+- (Client) jwt removed from localStorage and user state is null
+- (Client) render called and renderPage is called twice (Redirect is called and hash is changed then page actually rendered)
